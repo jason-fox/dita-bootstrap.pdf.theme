@@ -103,6 +103,7 @@
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#7b8ab8</xsl:variable>
   <xsl:variable name="bootstrap-border-color">rgba(55, 94, 148, 0.1)</xsl:variable>
+  <xsl:variable name="bootstrap-border-width">0pt</xsl:variable>
   <xsl:variable name="bootstrap-rounded">6pt</xsl:variable>
 
   <!-- Heading Font Sizes -->
@@ -191,7 +192,7 @@
     <entry name="bootstrap-dark-subtle-text">#141619</entry>
 
     <entry name="bootstrap-border-color"><xsl:value-of select="$bootstrap-border-color"/></entry>
-    <entry name="bootstrap-border-width">1pt</entry>
+    <entry name="bootstrap-border-width"><xsl:value-of select="$bootstrap-border-width"/></entry>
     <entry name="bootstrap-rounded"><xsl:value-of select="$bootstrap-rounded"/></entry>
 
     <entry name="bootstrap-h1-font-size"><xsl:value-of select="$bootstrap-h1-font-size"/></entry>

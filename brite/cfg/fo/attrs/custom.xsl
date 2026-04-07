@@ -105,7 +105,7 @@
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#212529</xsl:variable>
   <xsl:variable name="bootstrap-border-color">#dee2e6</xsl:variable>
-  <xsl:variable name="bootstrap-border-width">1pt</xsl:variable>
+  <xsl:variable name="bootstrap-border-width">2pt</xsl:variable>
   <xsl:variable name="bootstrap-rounded">6pt</xsl:variable>
 
   <!-- Heading Font Sizes (converted from Brite CSS rem values) -->
