@@ -6,7 +6,7 @@
 >
 
   <!-- Typography Overrides -->
-  <xsl:variable name="default-font-family">Source Sans Pro, sans-serif</xsl:variable>
+  <xsl:variable name="default-font-family">sans-serif</xsl:variable>
   <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Solar Theme Base Colors (Adapted for light mode print) -->

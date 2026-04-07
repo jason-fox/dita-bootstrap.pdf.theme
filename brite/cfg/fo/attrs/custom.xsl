@@ -6,8 +6,8 @@
 >
 
   <!-- Typography Overrides (using logical names for maximum DITA-OT compatibility) -->
-  <xsl:variable name="default-font-family">sans-serif</xsl:variable> <!-- Arial fallback -->
-  <xsl:variable name="monospaced-font-family">monospace</xsl:variable> <!-- Courier New fallback -->
+  <xsl:variable name="default-font-family">sans-serif</xsl:variable>
+  <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Brite Theme Base Colors (overriding dita-bootstrap.pdf variables) -->
 

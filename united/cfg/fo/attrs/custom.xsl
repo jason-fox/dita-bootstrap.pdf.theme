@@ -6,7 +6,7 @@
 >
 
   <!-- Typography Overrides -->
-  <xsl:variable name="default-font-family">Ubuntu, sans-serif</xsl:variable>
+  <xsl:variable name="default-font-family">sans-serif</xsl:variable>
   <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- United Theme Base Colors -->

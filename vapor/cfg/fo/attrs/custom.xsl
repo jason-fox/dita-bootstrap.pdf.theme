@@ -6,7 +6,7 @@
 >
 
   <!-- Typography Overrides -->
-  <xsl:variable name="default-font-family">Lato, sans-serif</xsl:variable>
+  <xsl:variable name="default-font-family">sans-serif</xsl:variable>
   <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Vapor Theme Base Colors (Adapted for light mode print) -->

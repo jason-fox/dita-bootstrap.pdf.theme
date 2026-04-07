@@ -6,8 +6,8 @@
 >
 
   <!-- Typography Overrides (using logical names for maximum DITA-OT compatibility) -->
-  <xsl:variable name="default-font-family">sans-serif</xsl:variable> <!-- Arial fallback -->
-  <xsl:variable name="monospaced-font-family">monospace</xsl:variable> <!-- Courier New fallback -->
+  <xsl:variable name="default-font-family">sans-serif</xsl:variable>
+  <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Override PrismJS code block styling based on custom CSS theme -->
   <xsl:variable name="prismjs.maintext.color">#000000</xsl:variable>
