@@ -1,14 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <project>
   <!-- Main target for bootstrap-pdf transtype -->
-  <target name="dita2pdf-bootstrap"
-       depends="dita2pdf-bootstrap.init,
-                dita2pdf2"/>
+  <target
+    name="dita2pdf-bootstrap"
+    depends="dita2pdf-bootstrap.init,
+                dita2pdf2"
+  />
 
   <target name="dita2pdf-bootstrap.init">
     <!-- Set default theme to 'default' if not already set -->
     <property name="bootstrap.theme" value="default"/>
-    <property name="customization.dir"
-          location="${dita.plugin.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"/>
+    <property
+      name="customization.dir"
+      location="${dita.plugin.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"
+    />
   </target>
 </project>
