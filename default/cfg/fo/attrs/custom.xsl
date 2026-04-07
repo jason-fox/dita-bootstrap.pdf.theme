@@ -11,7 +11,7 @@
 
   <!-- Override PrismJS code block styling based on custom CSS theme -->
   <xsl:variable name="prismjs.maintext.color">#000000</xsl:variable>
-  <xsl:variable name="prismjs.background.color">#f5f2f0</xsl:variable>
+  <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
   <xsl:variable name="prismjs.token.comment.color">#999999</xsl:variable>
   <xsl:variable name="prismjs.token.punctuation.color">#999999</xsl:variable>
   <xsl:variable name="prismjs.token.atrule.color">#0077aa</xsl:variable>

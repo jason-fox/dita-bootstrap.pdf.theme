@@ -229,7 +229,7 @@
 
   <!-- PrismJS code block styling aligned with Cerulean variables -->
   <xsl:variable name="prismjs.maintext.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
-  <xsl:variable name="prismjs.background.color">#f8f9fa</xsl:variable>
+  <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
   <xsl:variable name="prismjs.token.comment.color">#888888</xsl:variable>
   <xsl:variable name="prismjs.token.punctuation.color">#495057</xsl:variable>
   <xsl:variable name="prismjs.token.atrule.color"><xsl:value-of select="$bootstrap-primary"/></xsl:variable>
