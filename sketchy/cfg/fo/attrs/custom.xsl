@@ -249,7 +249,7 @@
     <xsl:attribute name="font-weight">bold</xsl:attribute>
   </xsl:attribute-set>
   <xsl:attribute-set name="common.title">
-    <xsl:attribute name="font-family">Cabin Sketch, cursive</xsl:attribute>
+    <!-- xsl:attribute name="font-family">Cabin Sketch, cursive</xsl:attribute -->
     <xsl:attribute name="color"><xsl:value-of select="$bootstrap-primary"/></xsl:attribute>
   </xsl:attribute-set>
   <xsl:attribute-set name="pre">

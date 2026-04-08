@@ -103,7 +103,7 @@
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#444444</xsl:variable>
   <xsl:variable name="bootstrap-border-color">#ededed</xsl:variable>
-  <xsl:variable name="bootstrap-rounded">6pt</xsl:variable>
+  <xsl:variable name="bootstrap-rounded">0</xsl:variable>
 
   <!-- Heading Font Sizes -->
   <xsl:variable name="bootstrap-h1-font-size">30pt</xsl:variable>
@@ -208,11 +208,11 @@
     <entry name="bootstrap-spacing-4">18pt</entry>
     <entry name="bootstrap-spacing-5">36pt</entry>
     <entry name="bootstrap-rounded-0">0</entry>
-    <entry name="bootstrap-rounded-1">3pt</entry>
-    <entry name="bootstrap-rounded-2">4pt</entry>
-    <entry name="bootstrap-rounded-3">5pt</entry>
-    <entry name="bootstrap-rounded-4">8pt</entry>
-    <entry name="bootstrap-rounded-5">16pt</entry>
+    <entry name="bootstrap-rounded-1">0</entry>
+    <entry name="bootstrap-rounded-2">0</entry>
+    <entry name="bootstrap-rounded-3">0</entry>
+    <entry name="bootstrap-rounded-4">0</entry>
+    <entry name="bootstrap-rounded-5">0</entry>
     <entry name="bootstrap-rounded-circle">50%</entry>
     <entry name="bootstrap-rounded-pill">100pt</entry>
     <entry name="bootstrap-display-1-font-size">60pt</entry>
