@@ -19,8 +19,9 @@
   <xsl:variable name="bootstrap-badge-primary-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-primary-bg">#158cba</xsl:variable>
   <xsl:variable name="bootstrap-btn-primary-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-primary-subtle">#d0e8f1</xsl:variable>
-  <xsl:variable name="bootstrap-primary-subtle-text">#08384a</xsl:variable>
+  <xsl:variable name="bootstrap-primary-subtle">#158cba</xsl:variable>
+  <xsl:variable name="bootstrap-primary-alert-border">#137ea7</xsl:variable>
+  <xsl:variable name="bootstrap-primary-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-primary-bg">#158cba</xsl:variable>
   <xsl:variable name="bootstrap-table-primary-color">#fff</xsl:variable>
 
@@ -30,8 +31,9 @@
   <xsl:variable name="bootstrap-badge-secondary-color">#000</xsl:variable>
   <xsl:variable name="bootstrap-btn-secondary-bg">#f0f0f0</xsl:variable>
   <xsl:variable name="bootstrap-btn-secondary-color">#000</xsl:variable>
-  <xsl:variable name="bootstrap-secondary-subtle">#fcfcfc</xsl:variable>
-  <xsl:variable name="bootstrap-secondary-subtle-text">#606060</xsl:variable>
+  <xsl:variable name="bootstrap-secondary-subtle">#f0f0f0</xsl:variable>
+  <xsl:variable name="bootstrap-secondary-alert-border">#d8d8d8</xsl:variable>
+  <xsl:variable name="bootstrap-secondary-subtle-text">#222222</xsl:variable>
   <xsl:variable name="bootstrap-table-secondary-bg">#f0f0f0</xsl:variable>
   <xsl:variable name="bootstrap-table-secondary-color">#222</xsl:variable>
 
@@ -41,8 +43,9 @@
   <xsl:variable name="bootstrap-badge-success-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-success-bg">#28b62c</xsl:variable>
   <xsl:variable name="bootstrap-btn-success-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-success-subtle">#d4f0d5</xsl:variable>
-  <xsl:variable name="bootstrap-success-subtle-text">#104912</xsl:variable>
+  <xsl:variable name="bootstrap-success-subtle">#28b62c</xsl:variable>
+  <xsl:variable name="bootstrap-success-alert-border">#24a428</xsl:variable>
+  <xsl:variable name="bootstrap-success-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-success-bg">#28b62c</xsl:variable>
   <xsl:variable name="bootstrap-table-success-color">#fff</xsl:variable>
 
@@ -52,8 +55,9 @@
   <xsl:variable name="bootstrap-badge-info-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-info-bg">#75caeb</xsl:variable>
   <xsl:variable name="bootstrap-btn-info-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-info-subtle">#e3f4fb</xsl:variable>
-  <xsl:variable name="bootstrap-info-subtle-text">#2f515e</xsl:variable>
+  <xsl:variable name="bootstrap-info-subtle">#75caeb</xsl:variable>
+  <xsl:variable name="bootstrap-info-alert-border">#69b6d4</xsl:variable>
+  <xsl:variable name="bootstrap-info-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-info-bg">#75caeb</xsl:variable>
   <xsl:variable name="bootstrap-table-info-color">#fff</xsl:variable>
 
@@ -63,8 +67,9 @@
   <xsl:variable name="bootstrap-badge-warning-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-warning-bg">#ff851b</xsl:variable>
   <xsl:variable name="bootstrap-btn-warning-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-warning-subtle">#ffe7d1</xsl:variable>
-  <xsl:variable name="bootstrap-warning-subtle-text">#66350b</xsl:variable>
+  <xsl:variable name="bootstrap-warning-subtle">#ff851b</xsl:variable>
+  <xsl:variable name="bootstrap-warning-alert-border">#e67818</xsl:variable>
+  <xsl:variable name="bootstrap-warning-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-warning-bg">#ff851b</xsl:variable>
   <xsl:variable name="bootstrap-table-warning-color">#fff</xsl:variable>
 
@@ -74,8 +79,9 @@
   <xsl:variable name="bootstrap-badge-danger-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-danger-bg">#ff4136</xsl:variable>
   <xsl:variable name="bootstrap-btn-danger-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-danger-subtle">#ffd9d7</xsl:variable>
-  <xsl:variable name="bootstrap-danger-subtle-text">#661a16</xsl:variable>
+  <xsl:variable name="bootstrap-danger-subtle">#ff4136</xsl:variable>
+  <xsl:variable name="bootstrap-danger-alert-border">#e63b31</xsl:variable>
+  <xsl:variable name="bootstrap-danger-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-danger-bg">#ff4136</xsl:variable>
   <xsl:variable name="bootstrap-table-danger-color">#fff</xsl:variable>
 
@@ -85,8 +91,9 @@
   <xsl:variable name="bootstrap-badge-light-color">#000</xsl:variable>
   <xsl:variable name="bootstrap-btn-light-bg">#f6f6f6</xsl:variable>
   <xsl:variable name="bootstrap-btn-light-color">#000</xsl:variable>
-  <xsl:variable name="bootstrap-light-subtle">#fefefe</xsl:variable>
-  <xsl:variable name="bootstrap-light-subtle-text">#141619</xsl:variable>
+  <xsl:variable name="bootstrap-light-subtle">#f6f6f6</xsl:variable>
+  <xsl:variable name="bootstrap-light-alert-border">#dddddd</xsl:variable>
+  <xsl:variable name="bootstrap-light-subtle-text">#222222</xsl:variable>
   <xsl:variable name="bootstrap-table-light-bg">#f6f6f6</xsl:variable>
   <xsl:variable name="bootstrap-table-light-color">#222</xsl:variable>
 
@@ -96,8 +103,9 @@
   <xsl:variable name="bootstrap-badge-dark-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-dark-bg">#555</xsl:variable>
   <xsl:variable name="bootstrap-btn-dark-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-dark-subtle">#ced4da</xsl:variable>
-  <xsl:variable name="bootstrap-dark-subtle-text">#141619</xsl:variable>
+  <xsl:variable name="bootstrap-dark-subtle">#555555</xsl:variable>
+  <xsl:variable name="bootstrap-dark-alert-border">#4d4d4d</xsl:variable>
+  <xsl:variable name="bootstrap-dark-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-bg">#555</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
@@ -175,20 +183,28 @@
     
     <entry name="bootstrap-primary-subtle"><xsl:value-of select="$bootstrap-primary-subtle"/></entry>
     <entry name="bootstrap-primary-subtle-text"><xsl:value-of select="$bootstrap-primary-subtle-text"/></entry>
+    <entry name="bootstrap-primary-alert-border"><xsl:value-of select="$bootstrap-primary-alert-border"/></entry>
     <entry name="bootstrap-secondary-subtle"><xsl:value-of select="$bootstrap-secondary-subtle"/></entry>
     <entry name="bootstrap-secondary-subtle-text"><xsl:value-of select="$bootstrap-secondary-subtle-text"/></entry>
+    <entry name="bootstrap-secondary-alert-border"><xsl:value-of select="$bootstrap-secondary-alert-border"/></entry>
     <entry name="bootstrap-success-subtle"><xsl:value-of select="$bootstrap-success-subtle"/></entry>
     <entry name="bootstrap-success-subtle-text"><xsl:value-of select="$bootstrap-success-subtle-text"/></entry>
+    <entry name="bootstrap-success-alert-border"><xsl:value-of select="$bootstrap-success-alert-border"/></entry>
     <entry name="bootstrap-danger-subtle"><xsl:value-of select="$bootstrap-danger-subtle"/></entry>
     <entry name="bootstrap-danger-subtle-text"><xsl:value-of select="$bootstrap-danger-subtle-text"/></entry>
+    <entry name="bootstrap-danger-alert-border"><xsl:value-of select="$bootstrap-danger-alert-border"/></entry>
     <entry name="bootstrap-warning-subtle"><xsl:value-of select="$bootstrap-warning-subtle"/></entry>
     <entry name="bootstrap-warning-subtle-text"><xsl:value-of select="$bootstrap-warning-subtle-text"/></entry>
+    <entry name="bootstrap-warning-alert-border"><xsl:value-of select="$bootstrap-warning-alert-border"/></entry>
     <entry name="bootstrap-info-subtle"><xsl:value-of select="$bootstrap-info-subtle"/></entry>
     <entry name="bootstrap-info-subtle-text"><xsl:value-of select="$bootstrap-info-subtle-text"/></entry>
-    <entry name="bootstrap-light-subtle">#fefefe</entry>
-    <entry name="bootstrap-light-subtle-text">#141619</entry>
-    <entry name="bootstrap-dark-subtle">#ced4da</entry>
-    <entry name="bootstrap-dark-subtle-text">#141619</entry>
+    <entry name="bootstrap-info-alert-border"><xsl:value-of select="$bootstrap-info-alert-border"/></entry>
+    <entry name="bootstrap-light-subtle"><xsl:value-of select="$bootstrap-light-subtle"/></entry>
+    <entry name="bootstrap-light-subtle-text"><xsl:value-of select="$bootstrap-light-subtle-text"/></entry>
+    <entry name="bootstrap-light-alert-border"><xsl:value-of select="$bootstrap-light-alert-border"/></entry>
+    <entry name="bootstrap-dark-subtle"><xsl:value-of select="$bootstrap-dark-subtle"/></entry>
+    <entry name="bootstrap-dark-subtle-text"><xsl:value-of select="$bootstrap-dark-subtle-text"/></entry>
+    <entry name="bootstrap-dark-alert-border"><xsl:value-of select="$bootstrap-dark-alert-border"/></entry>
 
     <entry name="bootstrap-border-color"><xsl:value-of select="$bootstrap-border-color"/></entry>
     <entry name="bootstrap-border-width">1pt</entry>

@@ -19,8 +19,8 @@
   <xsl:variable name="bootstrap-badge-primary-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-primary-bg">#378dfc</xsl:variable>
   <xsl:variable name="bootstrap-btn-primary-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-primary-subtle">#d7e8fe</xsl:variable>
-  <xsl:variable name="bootstrap-primary-subtle-text">#163865</xsl:variable>
+  <xsl:variable name="bootstrap-primary-subtle">#378dfc</xsl:variable>
+  <xsl:variable name="bootstrap-primary-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-primary-bg">#d7e8fe</xsl:variable>
   <xsl:variable name="bootstrap-table-primary-color">#7b8ab8</xsl:variable>
 
@@ -30,8 +30,8 @@
   <xsl:variable name="bootstrap-badge-secondary-color">#000</xsl:variable>
   <xsl:variable name="bootstrap-btn-secondary-bg">#d9e3f1</xsl:variable>
   <xsl:variable name="bootstrap-btn-secondary-color">#000</xsl:variable>
-  <xsl:variable name="bootstrap-secondary-subtle">#f7f9fc</xsl:variable>
-  <xsl:variable name="bootstrap-secondary-subtle-text">#575b60</xsl:variable>
+  <xsl:variable name="bootstrap-secondary-subtle">#d9e3f1</xsl:variable>
+  <xsl:variable name="bootstrap-secondary-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-secondary-bg">#f7f9fc</xsl:variable>
   <xsl:variable name="bootstrap-table-secondary-color">#7b8ab8</xsl:variable>
 
@@ -41,8 +41,8 @@
   <xsl:variable name="bootstrap-badge-success-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-success-bg">#43cc29</xsl:variable>
   <xsl:variable name="bootstrap-btn-success-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-success-subtle">#d9f5d4</xsl:variable>
-  <xsl:variable name="bootstrap-success-subtle-text">#1b5210</xsl:variable>
+  <xsl:variable name="bootstrap-success-subtle">#43cc29</xsl:variable>
+  <xsl:variable name="bootstrap-success-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-success-bg">#d9f5d4</xsl:variable>
   <xsl:variable name="bootstrap-table-success-color">#7b8ab8</xsl:variable>
 
@@ -52,8 +52,8 @@
   <xsl:variable name="bootstrap-badge-info-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-info-bg">#5b62f4</xsl:variable>
   <xsl:variable name="bootstrap-btn-info-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-info-subtle">#dee0fd</xsl:variable>
-  <xsl:variable name="bootstrap-info-subtle-text">#242762</xsl:variable>
+  <xsl:variable name="bootstrap-info-subtle">#5b62f4</xsl:variable>
+  <xsl:variable name="bootstrap-info-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-info-bg">#dee0fd</xsl:variable>
   <xsl:variable name="bootstrap-table-info-color">#7b8ab8</xsl:variable>
 
@@ -63,8 +63,8 @@
   <xsl:variable name="bootstrap-badge-warning-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-warning-bg">#ffc107</xsl:variable>
   <xsl:variable name="bootstrap-btn-warning-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-warning-subtle">#fff3cd</xsl:variable>
-  <xsl:variable name="bootstrap-warning-subtle-text">#664d03</xsl:variable>
+  <xsl:variable name="bootstrap-warning-subtle">#ffc107</xsl:variable>
+  <xsl:variable name="bootstrap-warning-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-warning-bg">#fff3cd</xsl:variable>
   <xsl:variable name="bootstrap-table-warning-color">#7b8ab8</xsl:variable>
 
@@ -74,8 +74,8 @@
   <xsl:variable name="bootstrap-badge-danger-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-btn-danger-bg">#e52527</xsl:variable>
   <xsl:variable name="bootstrap-btn-danger-color">#fff</xsl:variable>
-  <xsl:variable name="bootstrap-danger-subtle">#fad3d4</xsl:variable>
-  <xsl:variable name="bootstrap-danger-subtle-text">#5c0f10</xsl:variable>
+  <xsl:variable name="bootstrap-danger-subtle">#e52527</xsl:variable>
+  <xsl:variable name="bootstrap-danger-subtle-text">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-table-danger-bg">#fad3d4</xsl:variable>
   <xsl:variable name="bootstrap-table-danger-color">#7b8ab8</xsl:variable>
 

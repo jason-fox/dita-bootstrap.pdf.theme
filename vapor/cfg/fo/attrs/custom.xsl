@@ -229,16 +229,16 @@
 
 
   <!-- PrismJS code block styling aligned with Vapor variables -->
-  <xsl:variable name="prismjs.maintext.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
-  <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.token.comment.color">#6c757d</xsl:variable>
-  <xsl:variable name="prismjs.token.punctuation.color">#495057</xsl:variable>
-  <xsl:variable name="prismjs.token.atrule.color"><xsl:value-of select="$bootstrap-primary"/></xsl:variable>
-  <xsl:variable name="prismjs.token.function.color"><xsl:value-of select="$bootstrap-info"/></xsl:variable>
-  <xsl:variable name="prismjs.token.selector.color"><xsl:value-of select="$bootstrap-success"/></xsl:variable>
-  <xsl:variable name="prismjs.token.property.color"><xsl:value-of select="$bootstrap-danger"/></xsl:variable>
-  <xsl:variable name="prismjs.token.operator.color"><xsl:value-of select="$bootstrap-info"/></xsl:variable>
-  <xsl:variable name="prismjs.token.regex.color"><xsl:value-of select="$bootstrap-warning"/></xsl:variable>
+  <xsl:variable name="prismjs.maintext.color">#000</xsl:variable>
+  <xsl:variable name="prismjs.background.color">#f5f2f0</xsl:variable>
+  <xsl:variable name="prismjs.token.comment.color">#999</xsl:variable>
+  <xsl:variable name="prismjs.token.punctuation.color">#999</xsl:variable>
+  <xsl:variable name="prismjs.token.atrule.color">#07a</xsl:variable>
+  <xsl:variable name="prismjs.token.function.color">#f08d49</xsl:variable>
+  <xsl:variable name="prismjs.token.selector.color">#2ebd64</xsl:variable>
+  <xsl:variable name="prismjs.token.property.color">#DD4A68</xsl:variable>
+  <xsl:variable name="prismjs.token.operator.color">#f08d49</xsl:variable>
+  <xsl:variable name="prismjs.token.regex.color">#2ebd64</xsl:variable>
 
   <!-- Global Font Overrides -->
   <xsl:attribute-set name="__fo__root">

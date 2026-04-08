@@ -4,4 +4,8 @@
   xmlns:fo="http://www.w3.org/1999/XSL/Format"
   version="2.0"
 >
+  <xsl:template match="*" mode="bootstrapDecoration" priority="10">
+    <xsl:attribute name="border-width">0pt</xsl:attribute>
+    <xsl:attribute name="border-style">none</xsl:attribute>
+  </xsl:template>
 </xsl:stylesheet>
