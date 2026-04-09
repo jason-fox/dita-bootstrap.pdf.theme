@@ -10,7 +10,7 @@
   <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Override PrismJS code block styling based on custom CSS theme -->
-  <xsl:variable name="prismjs.text.color">#000000</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#2b2f32</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
   <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
   <xsl:variable name="prismjs.punctuation.color">#6c757d</xsl:variable>

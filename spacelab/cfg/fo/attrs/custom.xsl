@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with Spacelab variables -->
-  <xsl:variable name="prismjs.text.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
+  <xsl:variable name="prismjs.text.color">#3d3d3d</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#777</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#3d3d3d</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#999</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#777</xsl:variable>
   <xsl:variable name="prismjs.string.color">#3cb521</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#446e9b</xsl:variable>

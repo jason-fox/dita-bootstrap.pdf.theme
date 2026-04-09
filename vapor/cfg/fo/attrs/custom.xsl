@@ -229,10 +229,10 @@
 
 
   <!-- PrismJS code block styling aligned with Vapor variables -->
-  <xsl:variable name="prismjs.text.color">#ffffff</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#5e174a</xsl:variable>
   <xsl:variable name="prismjs.background.color">#170229</xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#6c757d</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#44d9e8</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#6c757d</xsl:variable>
   <xsl:variable name="prismjs.string.color">#3cf281</xsl:variable>
   <xsl:variable name="prismjs.function.color">#f1b633</xsl:variable>
   <xsl:variable name="prismjs.name.color">#1ba2f6</xsl:variable>

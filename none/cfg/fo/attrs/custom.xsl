@@ -13,7 +13,7 @@
   <xsl:variable name="prismjs.text.color">#000000</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
   <xsl:variable name="prismjs.comment.color">#999999</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#999999</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#6c757d</xsl:variable>
   <xsl:variable name="prismjs.string.color">#ee9900</xsl:variable>
   <xsl:variable name="prismjs.function.color">#f08d49</xsl:variable>
   <xsl:variable name="prismjs.name.color">#669900</xsl:variable>

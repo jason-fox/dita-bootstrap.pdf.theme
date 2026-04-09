@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with Superhero variables -->
-  <xsl:variable name="prismjs.text.color">#000000</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#1f252b</xsl:variable>
   <xsl:variable name="prismjs.background.color">#dcdfe2</xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#4e5d6c</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#b0b0b0</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#868e96</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#4e5d6c</xsl:variable>
   <xsl:variable name="prismjs.string.color">#5cb85c</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#4c9be8</xsl:variable>

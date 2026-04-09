@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with United variables -->
-  <xsl:variable name="prismjs.text.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
+  <xsl:variable name="prismjs.text.color">#464340</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#868e96</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#aea79f</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#aea79f</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#868e96</xsl:variable>
   <xsl:variable name="prismjs.string.color">#38b44a</xsl:variable>
   <xsl:variable name="prismjs.function.color">#e95420</xsl:variable>
   <xsl:variable name="prismjs.name.color">#007bff</xsl:variable>

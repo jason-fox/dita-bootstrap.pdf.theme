@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with Live Site Audit -->
-  <xsl:variable name="prismjs.text.color">#b8bfc7</xsl:variable>
-  <xsl:variable name="prismjs.background.color">#dadada</xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#888</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#1b1b1b</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#dee2e6</xsl:variable>
+  <xsl:variable name="prismjs.background.color">#222</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#888</xsl:variable>
   <xsl:variable name="prismjs.string.color">#00bc8c</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#375a7f</xsl:variable>

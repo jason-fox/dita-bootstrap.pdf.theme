@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with Minty variables -->
-  <xsl:variable name="prismjs.text.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
+  <xsl:variable name="prismjs.text.color">#613c3e</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#888</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#613c3e</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#aaa</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#888</xsl:variable>
   <xsl:variable name="prismjs.string.color">#56cc9d</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#007bff</xsl:variable>

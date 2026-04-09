@@ -228,10 +228,10 @@
 
 
   <!-- PrismJS code block styling aligned with Flatly variables -->
-  <xsl:variable name="prismjs.text.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
-  <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#95a5a6</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#3c4242</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#dee2e6</xsl:variable>
+  <xsl:variable name="prismjs.background.color">#212529</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#b4bcc2</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#95a5a6</xsl:variable>
   <xsl:variable name="prismjs.string.color">#18bc9c</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#2c3e50</xsl:variable>

@@ -227,10 +227,10 @@
 
 
   <!-- PrismJS code block styling aligned with Litera variables -->
-  <xsl:variable name="prismjs.text.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
+  <xsl:variable name="prismjs.text.color">#45484c</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#868e96</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#45484c</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#868e96</xsl:variable>
   <xsl:variable name="prismjs.string.color">#02b875</xsl:variable>
   <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
   <xsl:variable name="prismjs.name.color">#4582ec</xsl:variable>
