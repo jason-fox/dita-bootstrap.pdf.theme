@@ -5,7 +5,7 @@
   version="2.0"
 >
   <xsl:template match="*" mode="prismDecoration" priority="10">
-    <xsl:attribute name="color"><xsl:value-of select="$prismjs.maintext.color"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
     <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
     <xsl:attribute name="border-style">solid</xsl:attribute>
     <xsl:attribute name="border-width"><xsl:value-of select="$bootstrap-border-width"/></xsl:attribute>
