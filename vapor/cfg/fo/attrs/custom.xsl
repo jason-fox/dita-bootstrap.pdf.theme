@@ -229,16 +229,16 @@
 
 
   <!-- PrismJS code block styling aligned with Vapor variables -->
-  <xsl:variable name="prismjs.maintext.color">#000</xsl:variable>
-  <xsl:variable name="prismjs.background.color">#f5f2f0</xsl:variable>
-  <xsl:variable name="prismjs.token.comment.color">#999</xsl:variable>
-  <xsl:variable name="prismjs.token.punctuation.color">#999</xsl:variable>
-  <xsl:variable name="prismjs.token.atrule.color">#07a</xsl:variable>
-  <xsl:variable name="prismjs.token.function.color">#f08d49</xsl:variable>
-  <xsl:variable name="prismjs.token.selector.color">#2ebd64</xsl:variable>
-  <xsl:variable name="prismjs.token.property.color">#DD4A68</xsl:variable>
-  <xsl:variable name="prismjs.token.operator.color">#f08d49</xsl:variable>
-  <xsl:variable name="prismjs.token.regex.color">#2ebd64</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#ffffff</xsl:variable>
+  <xsl:variable name="prismjs.background.color">#170229</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#6c757d</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#44d9e8</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#3cf281</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#f1b633</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#1ba2f6</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#e44c55</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#32fbe2</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#3f81a2</xsl:variable>
 
   <!-- Global Font Overrides -->
   <xsl:attribute-set name="__fo__root">
@@ -256,6 +256,8 @@
   </xsl:attribute-set>
   <xsl:attribute-set name="codeblock" use-attribute-sets="pre">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
   </xsl:attribute-set>
   <xsl:attribute-set name="codeph">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>

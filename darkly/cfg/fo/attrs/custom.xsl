@@ -228,16 +228,16 @@
 
 
   <!-- PrismJS code block styling aligned with Live Site Audit -->
-  <xsl:variable name="prismjs.maintext.color">#b8bfc7</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#b8bfc7</xsl:variable>
   <xsl:variable name="prismjs.background.color">#dadada</xsl:variable>
-  <xsl:variable name="prismjs.token.comment.color">#999999</xsl:variable>
-  <xsl:variable name="prismjs.token.punctuation.color">#888888</xsl:variable>
-  <xsl:variable name="prismjs.token.atrule.color">#20c997</xsl:variable>
-  <xsl:variable name="prismjs.token.function.color">#fd7e14</xsl:variable>
-  <xsl:variable name="prismjs.token.selector.color">#00bc8c</xsl:variable>
-  <xsl:variable name="prismjs.token.property.color">#e83e8c</xsl:variable>
-  <xsl:variable name="prismjs.token.operator.color">#3498db</xsl:variable>
-  <xsl:variable name="prismjs.token.regex.color">#00bc8c</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#888</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#1b1b1b</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#00bc8c</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#375a7f</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#e74c3c</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#3498db</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#20c997</xsl:variable>
 
 
   <!-- Global Font Overrides -->
@@ -256,6 +256,8 @@
   </xsl:attribute-set>
   <xsl:attribute-set name="codeblock" use-attribute-sets="pre">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
   </xsl:attribute-set>
   <xsl:attribute-set name="codeph">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>

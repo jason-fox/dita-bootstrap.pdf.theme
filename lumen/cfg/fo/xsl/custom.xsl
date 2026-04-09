@@ -5,6 +5,21 @@
   version="2.0"
 >
 
+  <xsl:template match="*" mode="prismDecoration" priority="10">
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
+    <xsl:attribute name="border-style">solid</xsl:attribute>
+    <xsl:attribute name="border-top-width">0pt</xsl:attribute>
+    <xsl:attribute name="border-right-width">0.75pt</xsl:attribute>
+    <xsl:attribute name="border-bottom-width">3pt</xsl:attribute>
+    <xsl:attribute name="border-left-width">0.75pt</xsl:attribute>
+    <xsl:attribute name="border-color"><xsl:value-of select="$bootstrap-secondary"/></xsl:attribute>
+    <xsl:call-template name="processBootstrapRounded">
+      <xsl:with-param name="attrValue" select="(@rounded, 'yes')[1]"/>
+    </xsl:call-template>
+    <xsl:attribute name="padding"><xsl:value-of select="$bootstrap-spacing-1"/></xsl:attribute>
+  </xsl:template>
+
   <xsl:template match="*" mode="bootstrapDecoration" priority="10">
     <xsl:variable name="theme">
       <xsl:choose>

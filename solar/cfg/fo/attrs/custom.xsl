@@ -228,16 +228,16 @@
 
 
   <!-- PrismJS code block styling aligned with Solar variables -->
-  <xsl:variable name="prismjs.maintext.color"><xsl:value-of select="$bootstrap-body-color"/></xsl:variable>
-  <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.token.comment.color">#586e75</xsl:variable>
-  <xsl:variable name="prismjs.token.punctuation.color">#93a1a1</xsl:variable>
-  <xsl:variable name="prismjs.token.atrule.color"><xsl:value-of select="$bootstrap-primary"/></xsl:variable>
-  <xsl:variable name="prismjs.token.function.color"><xsl:value-of select="$bootstrap-info"/></xsl:variable>
-  <xsl:variable name="prismjs.token.selector.color"><xsl:value-of select="$bootstrap-success"/></xsl:variable>
-  <xsl:variable name="prismjs.token.property.color"><xsl:value-of select="$bootstrap-danger"/></xsl:variable>
-  <xsl:variable name="prismjs.token.operator.color"><xsl:value-of select="$bootstrap-info"/></xsl:variable>
-  <xsl:variable name="prismjs.token.regex.color"><xsl:value-of select="$bootstrap-warning"/></xsl:variable>
+  <xsl:variable name="prismjs.text.color">#000000</xsl:variable>
+  <xsl:variable name="prismjs.background.color">#e6eaea</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#657b83</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#586e75</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#859900</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#268bd2</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#b58900</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#cb4b16</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#d33682</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#2aa198</xsl:variable>
 
   <!-- Global Font Overrides -->
   <xsl:attribute-set name="__fo__root">
@@ -255,6 +255,8 @@
   </xsl:attribute-set>
   <xsl:attribute-set name="codeblock" use-attribute-sets="pre">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
   </xsl:attribute-set>
   <xsl:attribute-set name="codeph">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>

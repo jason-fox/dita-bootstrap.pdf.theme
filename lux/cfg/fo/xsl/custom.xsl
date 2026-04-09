@@ -6,9 +6,19 @@
 >
 
   <!-- Lux Theme Customizations -->
+  <xsl:template match="*" mode="prismDecoration" priority="10">
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
+    <xsl:attribute name="border-style">none</xsl:attribute>
+    <xsl:attribute name="border-width">0pt</xsl:attribute>
+    <xsl:call-template name="processBootstrapRounded">
+      <xsl:with-param name="attrValue" select="(@rounded, 'yes')[1]"/>
+    </xsl:call-template>
+    <xsl:attribute name="padding"><xsl:value-of select="$bootstrap-spacing-1"/></xsl:attribute>
+  </xsl:template>
+
   <xsl:template match="*" mode="bootstrapDecoration" priority="10">
     <xsl:attribute name="border-style">none</xsl:attribute>
     <xsl:attribute name="border-width">0pt</xsl:attribute>
   </xsl:template>
-
 </xsl:stylesheet>

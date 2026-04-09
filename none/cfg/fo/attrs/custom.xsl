@@ -10,16 +10,16 @@
   <xsl:variable name="monospaced-font-family">monospace</xsl:variable>
 
   <!-- Override PrismJS code block styling based on custom CSS theme -->
-  <xsl:variable name="prismjs.maintext.color">#000000</xsl:variable>
+  <xsl:variable name="prismjs.text.color">#000000</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.token.comment.color">#999999</xsl:variable>
-  <xsl:variable name="prismjs.token.punctuation.color">#999999</xsl:variable>
-  <xsl:variable name="prismjs.token.atrule.color">#0077aa</xsl:variable>
-  <xsl:variable name="prismjs.token.function.color">#f08d49</xsl:variable>
-  <xsl:variable name="prismjs.token.selector.color">#669900</xsl:variable>
-  <xsl:variable name="prismjs.token.property.color">#e2777a</xsl:variable>
-  <xsl:variable name="prismjs.token.operator.color">#67cdcc</xsl:variable>
-  <xsl:variable name="prismjs.token.regex.color">#ee9900</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#999999</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#999999</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#ee9900</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#f08d49</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#669900</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#e2777a</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#67cdcc</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#0077aa</xsl:variable>
 
   <!-- Global Font Overrides -->
   
@@ -45,6 +45,8 @@
 
   <xsl:attribute-set name="codeblock" use-attribute-sets="pre">
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
+    <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
   </xsl:attribute-set>
 
   <xsl:attribute-set name="codeph">
