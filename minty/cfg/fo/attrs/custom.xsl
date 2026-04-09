@@ -230,14 +230,14 @@
   <!-- PrismJS code block styling aligned with Minty variables -->
   <xsl:variable name="prismjs.text.color">#613c3e</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
-  <xsl:variable name="prismjs.comment.color">#aaa</xsl:variable>
+  <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
   <xsl:variable name="prismjs.punctuation.color">#888</xsl:variable>
-  <xsl:variable name="prismjs.string.color">#56cc9d</xsl:variable>
-  <xsl:variable name="prismjs.function.color">#fd7e14</xsl:variable>
-  <xsl:variable name="prismjs.name.color">#007bff</xsl:variable>
-  <xsl:variable name="prismjs.tag.color">#ff7851</xsl:variable>
-  <xsl:variable name="prismjs.url.color">#6cc3d5</xsl:variable>
-  <xsl:variable name="prismjs.keyword.color">#20c997</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#43a07b</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#e49a38</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#3689d0</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#de544c</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#58abc7</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#48ab8d</xsl:variable>
 
 
   <!-- Global Font Overrides -->

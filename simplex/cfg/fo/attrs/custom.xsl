@@ -233,11 +233,11 @@
   <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
   <xsl:variable name="prismjs.punctuation.color">#777</xsl:variable>
   <xsl:variable name="prismjs.string.color">#469408</xsl:variable>
-  <xsl:variable name="prismjs.function.color">#d9831f</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#905714</xsl:variable>
   <xsl:variable name="prismjs.name.color">#007bff</xsl:variable>
   <xsl:variable name="prismjs.tag.color">#d9230f</xsl:variable>
   <xsl:variable name="prismjs.url.color">#029acf</xsl:variable>
-  <xsl:variable name="prismjs.keyword.color">#20c997</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#189474</xsl:variable>
 
   <!-- Global Font Overrides -->
   <xsl:attribute-set name="__fo__root">

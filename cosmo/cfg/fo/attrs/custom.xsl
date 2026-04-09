@@ -231,13 +231,13 @@
   <xsl:variable name="prismjs.text.color">#161718</xsl:variable>
   <xsl:variable name="prismjs.background.color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:variable>
   <xsl:variable name="prismjs.comment.color">#adb5bd</xsl:variable>
-  <xsl:variable name="prismjs.punctuation.color">#868e96</xsl:variable>
-  <xsl:variable name="prismjs.string.color">#3fb618</xsl:variable>
-  <xsl:variable name="prismjs.function.color">#f0ad4e</xsl:variable>
-  <xsl:variable name="prismjs.name.color">#2780e3</xsl:variable>
-  <xsl:variable name="prismjs.tag.color">#ff0039</xsl:variable>
-  <xsl:variable name="prismjs.url.color">#9954bb</xsl:variable>
-  <xsl:variable name="prismjs.keyword.color">#20c997</xsl:variable>
+  <xsl:variable name="prismjs.punctuation.color">#495057</xsl:variable>
+  <xsl:variable name="prismjs.string.color">#2f8c12</xsl:variable>
+  <xsl:variable name="prismjs.function.color">#c5670b</xsl:variable>
+  <xsl:variable name="prismjs.name.color">#1b599f</xsl:variable>
+  <xsl:variable name="prismjs.tag.color">#b20028</xsl:variable>
+  <xsl:variable name="prismjs.url.color">#6b3b83</xsl:variable>
+  <xsl:variable name="prismjs.keyword.color">#189474</xsl:variable>
 
 
   <!-- Global Font Overrides -->
