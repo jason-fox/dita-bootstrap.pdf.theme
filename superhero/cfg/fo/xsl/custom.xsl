@@ -16,7 +16,7 @@
   </xsl:template>
 
   <xsl:template match="*" mode="bootstrapDecoration" priority="10">
-    <xsl:if test="not(@outline = 'yes' or @border or @bordercolor or contains(@outputclass, 'border'))">
+    <xsl:if test="not(@outline = 'yes' or @border or @bordercolor or contains(@outputclass, 'border') or contains(@class, ' bootstrap-d/card '))">
       <xsl:attribute name="border-width">0pt</xsl:attribute>
       <xsl:attribute name="border-style">none</xsl:attribute>
     </xsl:if>
