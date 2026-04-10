@@ -6,6 +6,9 @@
 >
 
   <!-- Lux Theme Customizations -->
+
+  <xsl:import href="./tables.xsl"/>
+
   <xsl:template match="*" mode="prismDecoration" priority="10">
     <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
     <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>
