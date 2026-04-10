@@ -100,6 +100,7 @@
   <xsl:variable name="bootstrap-dark-subtle-text">#141619</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-bg">#212529</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-color">#fff</xsl:variable>
+  <xsl:variable name="bootstrap-table-striped-color">#c9d7e9</xsl:variable>
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#7b8ab8</xsl:variable>
   <xsl:variable name="bootstrap-border-color">rgba(55, 94, 148, 0.1)</xsl:variable>
