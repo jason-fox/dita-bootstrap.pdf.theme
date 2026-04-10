@@ -11,7 +11,7 @@
 
   <!-- Vapor Theme Base Colors (Adapted for light mode print) -->
 
-  <xsl:variable name="bootstrap-link">#32fbe2</xsl:variable>
+  <xsl:variable name="bootstrap-link">#04c1aa</xsl:variable>
 
   <!-- Primary -->
   <xsl:variable name="bootstrap-primary">#6f42c1</xsl:variable>
