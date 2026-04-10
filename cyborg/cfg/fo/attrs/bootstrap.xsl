@@ -100,9 +100,10 @@
   <xsl:variable name="bootstrap-dark-subtle-text">#141619</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-bg">#adafae</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-color">#000</xsl:variable>
+  <xsl:variable name="bootstrap-table-striped-color">#1a1a1a</xsl:variable>
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#222222</xsl:variable>
-  <xsl:variable name="bootstrap-border-color">#dee2e6</xsl:variable>
+  <xsl:variable name="bootstrap-border-color">#adafae</xsl:variable>
   <xsl:variable name="bootstrap-rounded">6pt</xsl:variable>
 
   <!-- Heading Font Sizes (Cyborg is known for large headings) -->

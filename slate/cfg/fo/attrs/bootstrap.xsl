@@ -100,9 +100,10 @@
   <xsl:variable name="bootstrap-dark-subtle-text">#141619</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-bg">#272b30</xsl:variable>
   <xsl:variable name="bootstrap-table-dark-color">#fff</xsl:variable>
+  <xsl:variable name="bootstrap-table-striped-color">#3e444c</xsl:variable>
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#272b30</xsl:variable>
-  <xsl:variable name="bootstrap-border-color">#dee2e6</xsl:variable>
+  <xsl:variable name="bootstrap-border-color">#272b30</xsl:variable>
   <xsl:variable name="bootstrap-rounded">6pt</xsl:variable>
 
   <!-- Heading Font Sizes -->

@@ -4,6 +4,9 @@
   xmlns:fo="http://www.w3.org/1999/XSL/Format"
   version="2.0"
 >
+
+  <xsl:import href="cfg:fo/xsl/tables.xsl"/>
+
   <xsl:template match="*" mode="prismDecoration" priority="10">
     <xsl:attribute name="color"><xsl:value-of select="$prismjs.text.color"/></xsl:attribute>
     <xsl:attribute name="background-color"><xsl:value-of select="$prismjs.background.color"/></xsl:attribute>

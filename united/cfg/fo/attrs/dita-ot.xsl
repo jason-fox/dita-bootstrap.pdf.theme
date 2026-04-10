@@ -28,4 +28,65 @@
     <xsl:attribute name="font-family"><xsl:value-of select="$monospaced-font-family"/></xsl:attribute>
   </xsl:attribute-set>
 
+  <!-- Table Styling - UNITED -->
+  <xsl:attribute-set name="thead.row">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-primary"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-primary-color"/></xsl:attribute>
+    <xsl:attribute name="font-weight">bold</xsl:attribute>
+  </xsl:attribute-set>
+
+  <xsl:attribute-set name="thead.row.entry">
+    <xsl:attribute name="color">inherit</xsl:attribute>
+  </xsl:attribute-set>
+
+  <xsl:attribute-set name="thead.row.entry__content">
+    <xsl:attribute name="color">inherit</xsl:attribute>
+  </xsl:attribute-set>
+
+  <xsl:attribute-set name="__table__primary">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-primary-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-primary-color"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__table__secondary">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-secondary-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-secondary-color"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__table__success">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-success-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-success-color"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__table__info">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-info-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-info-color"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__table__warning">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-warning-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-warning-color"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__table__danger">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-badge-danger-bg"/></xsl:attribute>
+    <xsl:attribute name="color"><xsl:value-of select="$bootstrap-badge-danger-color"/></xsl:attribute>
+  </xsl:attribute-set>
+
+  <!-- Background Subtle Variants -->
+  <xsl:attribute-set name="__bg__primary-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-primary-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__bg__secondary-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-secondary-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__bg__success-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-success-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__bg__info-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-info-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__bg__warning-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-warning-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+  <xsl:attribute-set name="__bg__danger-subtle">
+    <xsl:attribute name="background-color"><xsl:value-of select="$bootstrap-danger-subtle"/></xsl:attribute>
+  </xsl:attribute-set>
+
 </xsl:stylesheet>
+
