@@ -52,6 +52,20 @@ To further customize a theme, you can modify the `cfg/fo/attrs/custom.xsl` file 
 
 [Apache 2.0](LICENSE) © 2026 Jason Fox
 
+The generated PDFs created by this software include the following additional fonts which are obtained under license:
+
+- Inter – https://github.com/rsms/inter – **SIL Open Font License**
+- Lato – http://www.latofonts.com/ – **SIL Open Font License**
+- Liberation Fonts – https://github.com/liberationfonts/liberation-fonts – **SIL Open Font License**
+- Neucha – https://github.com/google/fonts/tree/main/ofl/neucha – **SIL Open Font License**
+- Noto Sans – https://github.com/googlefonts/noto-fonts – **SIL Open Font License**
+- Nunito – https://github.com/googlefonts/nunito – **SIL Open Font License**
+- Open Sans – https://github.com/googlefonts/open-sans – **SIL Open Font License**
+- Roboto – https://github.com/googlefonts/roboto – **Apache License 2.0**
+- Source Sans Pro – https://github.com/adobe-fonts/source-sans-pro – **SIL Open Font License**
+- Ubuntu – https://design.ubuntu.com/font/ – **Ubuntu Font License**
+
+
 [1]: http://www.dita-ot.org
 [2]: https://github.com/infotexture/dita-bootstrap
 [3]: https://github.com/infotexture/dita-bootstrap.pdf
