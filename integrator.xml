@@ -14,13 +14,16 @@
       name="customization.dir"
       location="${dita.plugin.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"
     />
-    <property
-      name="args.fo.userconfig"
-      location="${customization.dir}/fo/fop.xconf"
-    />
-    <property
-      name="args.font.mapping.file"
-      location="${customization.dir}/fo/font-mappings.xml"
-    />
+    
+    <!-- Only set theme configuration if the files actually exist (allows 'default' and 'none' to work) -->
+    <available file="${customization.dir}/fo/fop.xconf" property="theme.fop.userconfig.available"/>
+    <condition property="args.fo.userconfig" value="${customization.dir}/fo/fop.xconf">
+       <isset property="theme.fop.userconfig.available"/>
+    </condition>
+
+    <available file="${customization.dir}/fo/font-mappings.xml" property="theme.font.mapping.available"/>
+    <condition property="args.font.mapping.file" value="${customization.dir}/fo/font-mappings.xml">
+       <isset property="theme.font.mapping.available"/>
+    </condition>
   </target>
 </project>
