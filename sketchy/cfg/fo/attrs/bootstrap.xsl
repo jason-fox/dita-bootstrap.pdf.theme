@@ -102,7 +102,7 @@
   <xsl:variable name="bootstrap-table-dark-color">#fff</xsl:variable>
   <xsl:variable name="bootstrap-body-bg">#ffffff</xsl:variable>
   <xsl:variable name="bootstrap-body-color">#212529</xsl:variable>
-  <xsl:variable name="bootstrap-border-color">#dee2e6</xsl:variable>
+  <xsl:variable name="bootstrap-border-color">#333333</xsl:variable>
   <xsl:variable name="bootstrap-border-width">2pt</xsl:variable>
   <xsl:variable name="bootstrap-rounded">25px</xsl:variable>
 
