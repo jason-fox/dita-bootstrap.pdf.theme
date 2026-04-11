@@ -16,5 +16,6 @@
   <xsl:variable name="prismjs.tag.color">#e66060</xsl:variable>
   <xsl:variable name="prismjs.url.color">#c192db</xsl:variable>
   <xsl:variable name="prismjs.keyword.color">#6ed1b4</xsl:variable>
+  <xsl:variable name="prismjs.border.width">0pt</xsl:variable>
 
 </xsl:stylesheet>
