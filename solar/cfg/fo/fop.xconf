@@ -4,28 +4,46 @@
     <renderer mime="application/pdf">
       <fonts>
         <auto-detect/>
+        <font kerning="yes" embed-url="../../../fonts/source-sans-pro/SourceSansPro-Regular.ttf" embedding-mode="subset">
+          <font-triplet name="Source Sans Pro" style="normal" weight="normal"/>
+          <font-triplet name="Source Sans Pro" style="normal" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/source-sans-pro/SourceSansPro-Bold.ttf" embedding-mode="subset">
+          <font-triplet name="Source Sans Pro" style="normal" weight="bold"/>
+          <font-triplet name="Source Sans Pro" style="normal" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/source-sans-pro/SourceSansPro-Italic.ttf" embedding-mode="subset">
+          <font-triplet name="Source Sans Pro" style="italic" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/source-sans-pro/SourceSansPro-BoldItalic.ttf" embedding-mode="subset">
+          <font-triplet name="Source Sans Pro" style="italic" weight="bold"/>
+        </font>
         <font kerning="yes" embed-url="../../../fonts/roboto/Roboto-Regular.ttf" embedding-mode="subset">
           <font-triplet name="Roboto" style="normal" weight="normal"/>
+          <font-triplet name="Roboto" style="normal" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/roboto/Roboto-Bold.ttf" embedding-mode="subset">
           <font-triplet name="Roboto" style="normal" weight="bold"/>
+          <font-triplet name="Roboto" style="normal" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/roboto/Roboto-Italic.ttf" embedding-mode="subset">
           <font-triplet name="Roboto" style="italic" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/roboto/Roboto-BoldItalic.ttf" embedding-mode="subset">
           <font-triplet name="Roboto" style="italic" weight="bold"/>
-        </font>
-        <font kerning="yes" embed-url="../../../fonts/noto-sans/NotoSans-Regular.ttf" embedding-mode="subset">
-          <font-triplet name="Noto Sans" style="normal" weight="normal"/>
-          <font-triplet name="Noto Sans" style="normal" weight="bold"/>
-          <font-triplet name="Noto Sans" style="italic" weight="normal"/>
-          <font-triplet name="Noto Sans" style="italic" weight="bold"/>
-        </font>
-        <font kerning="yes" embed-url="../../../fonts/liberation-sans/LiberationSans-Regular.ttf" embedding-mode="subset">
-          <font-triplet name="Liberation Sans" style="normal" weight="normal"/>
-          <font-triplet name="Liberation Sans" style="normal" weight="bold"/>
-          <font-triplet name="Liberation Sans" style="italic" weight="normal"/>
-          <font-triplet name="Liberation Sans" style="italic" weight="bold"/>
         </font>
         <font kerning="yes" embed-url="../../../fonts/liberation-mono/LiberationMono-Regular.ttf" embedding-mode="subset">
           <font-triplet name="Liberation Mono" style="normal" weight="normal"/>
+          <font-triplet name="Liberation Mono" style="normal" weight="400"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/liberation-mono/LiberationMono-Bold.ttf" embedding-mode="subset">
           <font-triplet name="Liberation Mono" style="normal" weight="bold"/>
+          <font-triplet name="Liberation Mono" style="normal" weight="700"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/liberation-mono/LiberationMono-Italic.ttf" embedding-mode="subset">
           <font-triplet name="Liberation Mono" style="italic" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="../../../fonts/liberation-mono/LiberationMono-BoldItalic.ttf" embedding-mode="subset">
           <font-triplet name="Liberation Mono" style="italic" weight="bold"/>
         </font>
       </fonts>

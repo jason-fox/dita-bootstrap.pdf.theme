@@ -9,7 +9,7 @@
 
     <logical-font name="Sans">
       <physical-font char-set="default">
-        <font-face>Roboto, Liberation Mono, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face>Roboto, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
 

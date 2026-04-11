@@ -9,13 +9,13 @@
 
     <logical-font name="Sans">
       <physical-font char-set="default">
-        <font-face>Roboto, Noto Sans, Liberation Sans, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face>Source Sans Pro, Roboto, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
 
     <logical-font name="Serif">
       <physical-font char-set="default">
-        <font-face>Roboto, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face>Source Sans Pro, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
 
