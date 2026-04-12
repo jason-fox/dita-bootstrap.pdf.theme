@@ -13,9 +13,9 @@ A plug-in for [DITA Open Toolkit][1] that provides a collection of Bootswatch-in
 Use the `dita` command to add this plug-in and its requirements to your DITA Open Toolkit installation:
 
 ```console
-dita install net.infotexture.dita-bootstrap
-dita install https://github.com/infotexture/dita-bootstrap.pdf/archive/master.zip
-dita install https://github.com/infotexture/dita-bootstrap.pdf.theme/archive/master.zip
+dita install dita-bootstrap.html
+dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf/archive/master.zip
+dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/master.zip
 ```
 
 ## Using
@@ -67,5 +67,5 @@ The generated PDFs created by this software include the following additional fon
 
 
 [1]: http://www.dita-ot.org
-[2]: https://github.com/infotexture/dita-bootstrap
-[3]: https://github.com/infotexture/dita-bootstrap.pdf
+[2]: https://github.com/dita-bootstrap/dita-bootstrap.html
+[3]: https://github.com/dita-bootstrap/dita-bootstrap.pdf

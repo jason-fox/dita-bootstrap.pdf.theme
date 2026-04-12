@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://www.dita-ot.org/rng/plugin.rnc" type="application/relax-ng-compact-syntax"?>
-<plugin id="dita-bootstrap.pdf.theme">
+<plugin id="com.dita-bootstrap.pdf.theme">
   <require plugin="org.dita.pdf2"/>
-  <require plugin="dita-bootstrap.pdf"/>
+  <require plugin="com.dita-bootstrap.pdf"/>
+  <require plugin="com.dita-bootstrap.specialization"/>
   <transtype name="pdf-bootstrap" extends="pdf" desc="">
     <param
       name="bootstrap.theme"
