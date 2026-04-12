@@ -41,6 +41,7 @@ jobs:
             https://github.com/infotexture/dita-bootstrap/archive/develop.zip
             https://github.com/jason-fox/fox.jason.prismjs/archive/master.zip
             https://github.com/dita-bootstrap/dita-bootstrap.pdf/archive/develop.zip
+            https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/develop.zip
           project: .github/dita-ot/${{ matrix.theme }}.xml
 
       - name: Upload PDF
