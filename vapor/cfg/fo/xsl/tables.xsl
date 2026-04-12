@@ -13,7 +13,10 @@
     <fo:table-row xsl:use-attribute-sets="thead.row">
       <xsl:call-template name="commonattributes"/>
       
-      <xsl:variable name="theme" select="(@color, parent::*/@color, ancestor::*[contains(@class, ' topic/table ')][1]/@color)[1]"/>
+      <xsl:variable
+        name="theme"
+        select="(@color, parent::*/@color, ancestor::*[contains(@class, ' topic/table ')][1]/@color)[1]"
+      />
       
       <xsl:if test="$theme">
         <!-- VAPOR heading follow button color (reflected via __table__) -->
@@ -69,15 +72,27 @@
 
   <!-- Entry styling -->
   <xsl:template match="*[contains(@class, ' topic/entry ')]" priority="10">
-    <xsl:variable name="isHeader" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"/>
-    <xsl:variable name="isFooter" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"/>
+    <xsl:variable
+      name="isHeader"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"
+    />
+    <xsl:variable
+      name="isFooter"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"
+    />
     <xsl:variable name="table" select="ancestor::*[contains(@class, ' topic/table ')][1]"/>
     <xsl:variable name="tableTheme" select="$table/@color"/>
     <xsl:variable name="stripedCols" select="$table/@striped-columns = 'yes'"/>
     
     <xsl:variable name="colIndex" select="if (@dita-ot:x) then xs:integer(@dita-ot:x) else 0"/>
-    <xsl:variable name="isColoredCol" select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"/>
-    <xsl:variable name="isGroupDivider" select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"/>
+    <xsl:variable
+      name="isColoredCol"
+      select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"
+    />
+    <xsl:variable
+      name="isGroupDivider"
+      select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"
+    />
 
     <fo:table-cell>
       <xsl:call-template name="commonattributes"/>

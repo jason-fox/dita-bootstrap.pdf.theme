@@ -9,19 +9,22 @@
 
     <logical-font name="Sans">
       <physical-font char-set="default">
-        <font-face>Open Sans, Roboto, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face
+        >Open Sans, Roboto, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
 
     <logical-font name="Serif">
       <physical-font char-set="default">
-        <font-face>Open Sans, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face
+        >Open Sans, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
 
     <logical-font name="Monospaced">
       <physical-font char-set="default">
-        <font-face>Liberation Mono, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face
+        >Liberation Mono, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
   </font-table>

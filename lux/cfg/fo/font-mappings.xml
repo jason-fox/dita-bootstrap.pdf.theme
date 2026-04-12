@@ -21,7 +21,8 @@
 
     <logical-font name="Monospaced">
       <physical-font char-set="default">
-        <font-face>Liberation Mono, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
+        <font-face
+        >Liberation Mono, Arial Unicode MS, Tahoma, Batang, SimSun</font-face>
       </physical-font>
     </logical-font>
   </font-table>

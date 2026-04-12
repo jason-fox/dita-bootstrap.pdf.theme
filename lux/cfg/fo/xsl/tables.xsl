@@ -47,7 +47,10 @@
       <!-- Better detection for themed thead (via @color or outputclass) -->
       <xsl:variable name="theadColor" select="$thead/@color"/>
       <xsl:variable name="theadClass" select="tokenize($thead/@outputclass, '\s+')[starts-with(., 'table-')][1]"/>
-      <xsl:variable name="theadTheme" select="if ($theadColor != '') then $theadColor else substring-after($theadClass, 'table-')"/>
+      <xsl:variable
+        name="theadTheme"
+        select="if ($theadColor != '') then $theadColor else substring-after($theadClass, 'table-')"
+      />
 
       <xsl:choose>
         <xsl:when test="$theadTheme != ''">
@@ -113,8 +116,14 @@
 
   <!-- Entry styling - LUX OVERRIDE for striped columns -->
   <xsl:template match="*[contains(@class, ' topic/entry ')]" priority="10">
-    <xsl:variable name="isHeader" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"/>
-    <xsl:variable name="isFooter" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"/>
+    <xsl:variable
+      name="isHeader"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"
+    />
+    <xsl:variable
+      name="isFooter"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"
+    />
     <xsl:variable name="table" select="ancestor::*[contains(@class, ' topic/table ')][1]"/>
     <xsl:variable name="tableTheme" select="$table/@color"/>
     <xsl:variable name="stripedCols" select="$table/@striped-columns = 'yes'"/>
@@ -126,9 +135,15 @@
         </xsl:choose>
     </xsl:variable>
     
-    <xsl:variable name="isColoredCol" select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"/>
+    <xsl:variable
+      name="isColoredCol"
+      select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"
+    />
     
-    <xsl:variable name="isGroupDivider" select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"/>
+    <xsl:variable
+      name="isGroupDivider"
+      select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"
+    />
 
     <fo:table-cell>
       <xsl:call-template name="commonattributes"/>
@@ -186,7 +201,10 @@
       <xsl:variable name="thead" select="ancestor::*[contains(@class, ' topic/thead ')][1]"/>
       <xsl:variable name="theadColor" select="$thead/@color"/>
       <xsl:variable name="theadClass" select="tokenize($thead/@outputclass, '\s+')[starts-with(., 'table-')][1]"/>
-      <xsl:variable name="theadTheme" select="if ($theadColor != '') then $theadColor else substring-after($theadClass, 'table-')"/>
+      <xsl:variable
+        name="theadTheme"
+        select="if ($theadColor != '') then $theadColor else substring-after($theadClass, 'table-')"
+      />
 
       <xsl:choose>
         <xsl:when test="@color">

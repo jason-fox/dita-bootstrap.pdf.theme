@@ -51,8 +51,14 @@
 
   <!-- Entry styling - MINTY OVERRIDE for striped columns -->
   <xsl:template match="*[contains(@class, ' topic/entry ')]" priority="10">
-    <xsl:variable name="isHeader" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"/>
-    <xsl:variable name="isFooter" select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"/>
+    <xsl:variable
+      name="isHeader"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/thead ')]"
+    />
+    <xsl:variable
+      name="isFooter"
+      select="parent::*[contains(@class, ' topic/row ')]/parent::*[contains(@class, ' topic/tfoot ')]"
+    />
     <xsl:variable name="table" select="ancestor::*[contains(@class, ' topic/table ')][1]"/>
     <xsl:variable name="tableTheme" select="$table/@color"/>
     <xsl:variable name="stripedCols" select="$table/@striped-columns = 'yes'"/>
@@ -64,9 +70,15 @@
         </xsl:choose>
     </xsl:variable>
     
-    <xsl:variable name="isColoredCol" select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"/>
+    <xsl:variable
+      name="isColoredCol"
+      select="$stripedCols and ($colIndex mod 2 = 0) and not($isHeader) and not($isFooter)"
+    />
     
-    <xsl:variable name="isGroupDivider" select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"/>
+    <xsl:variable
+      name="isGroupDivider"
+      select="$table/@divider = 'yes' and not(parent::*/preceding-sibling::*[contains(@class, ' topic/row ')]) and (parent::*/parent::*[contains(@class, ' topic/tbody ')] or parent::*/parent::*[contains(@class, ' topic/tfoot ')])"
+    />
 
     <fo:table-cell>
       <xsl:call-template name="commonattributes"/>

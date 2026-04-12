@@ -65,7 +65,6 @@ The generated PDFs created by this software include the following additional fon
 - Source Sans Pro – https://github.com/adobe-fonts/source-sans-pro – **SIL Open Font License**
 - Ubuntu – https://design.ubuntu.com/font/ – **Ubuntu Font License**
 
-
 [1]: http://www.dita-ot.org
 [2]: https://github.com/dita-bootstrap/dita-bootstrap.html
 [3]: https://github.com/dita-bootstrap/dita-bootstrap.pdf
