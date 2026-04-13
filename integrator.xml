@@ -9,10 +9,12 @@
 
   <target name="dita2pdf-bootstrap.init">
     <!-- Set default theme to 'default' if not already set -->
-    <property name="bootstrap.theme" value="default"/>
+    <condition property="bootstrap.theme" value="default">
+      <not><isset property="bootstrap.theme"/></not>
+    </condition>
     <property
       name="customization.dir"
-      location="${dita.plugin.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"
+      location="${dita.plugin.com.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"
     />
     
     <!-- Only set theme configuration if the files actually exist (allows 'default' and 'none' to work) -->
