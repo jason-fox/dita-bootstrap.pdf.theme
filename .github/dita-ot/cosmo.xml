@@ -10,7 +10,7 @@
   <deliverable name="PDF" id="pdf">
     <context idref="pdf"/>
     <output href="pdf"/>
-    <publication transtype="pdf">
+    <publication transtype="pdf-bootstrap">
       <param name="args.rellinks" value="none"/>
       <param name="processing-mode" value="strict"/>
       <param name="bootstrap.theme" value="cosmo"/>
