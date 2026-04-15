@@ -17,7 +17,7 @@
       location="${dita.plugin.org.dita-bootstrap.pdf.theme.dir}/${bootstrap.theme}/cfg"
     />
     
-    <!-- Only set theme configuration if the files actually exist (allows 'default' and 'none' to work) -->
+    <!-- Only set theme configuration if the files actually exist (allows 'none' to work) -->
     <available
       file="${customization.dir}/fo/fop.xconf"
       property="theme.fop.userconfig.available"
