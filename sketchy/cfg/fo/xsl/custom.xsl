@@ -13,11 +13,21 @@
   </xsl:template>
 
   <!-- Apply hand-drawn aesthetic to all Bootstrap components in Sketchy theme -->
-  <xsl:template match="*" mode="bootstrapDecoration" priority="10">
+  <xsl:template match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-')])]" mode="bootstrapDecoration" priority="10">
+    <xsl:param name="variant" select="''"/>
+    <xsl:param name="theme" select="''"/>
+    <xsl:param name="prefix" select="''"/>
+    <xsl:param name="defaultRounded" select="false()"/>
     <xsl:attribute name="fox:border-radius">35pt 8pt 30pt 8pt</xsl:attribute>
     <xsl:attribute name="border-style">solid</xsl:attribute>
     <xsl:attribute name="border-width"><xsl:value-of select="$bootstrap-border-width"/></xsl:attribute>
     <xsl:attribute name="border-color"><xsl:value-of select="$bootstrap-border-color"/></xsl:attribute>
+    <xsl:next-match>
+      <xsl:with-param name="variant" select="$variant"/>
+      <xsl:with-param name="theme" select="$theme"/>
+      <xsl:with-param name="prefix" select="$prefix"/>
+      <xsl:with-param name="defaultRounded" select="$defaultRounded"/>
+    </xsl:next-match>
   </xsl:template>
 
   <!-- Sketchy Theme specific override for pre and example -->

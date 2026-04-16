@@ -11,6 +11,16 @@
 
 
   <xsl:template match="*" mode="bootstrapDecoration" priority="10">
+    <xsl:param name="variant" select="''"/>
+    <xsl:param name="theme" select="''"/>
+    <xsl:param name="prefix" select="''"/>
+    <xsl:param name="defaultRounded" select="false()"/>
     <xsl:call-template name="bootstrapBorderless"/>
+    <xsl:next-match>
+      <xsl:with-param name="variant" select="$variant"/>
+      <xsl:with-param name="theme" select="$theme"/>
+      <xsl:with-param name="prefix" select="$prefix"/>
+      <xsl:with-param name="defaultRounded" select="$defaultRounded"/>
+    </xsl:next-match>
   </xsl:template>
 </xsl:stylesheet>
