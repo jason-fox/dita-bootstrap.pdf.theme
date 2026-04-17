@@ -20,7 +20,11 @@
     <xsl:attribute name="padding"><xsl:value-of select="$bootstrap-spacing-1"/></xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-') or starts-with(., 'btn-')])]" mode="bootstrapDecoration" priority="10">
+  <xsl:template
+    match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-') or starts-with(., 'btn-')])]"
+    mode="bootstrapDecoration"
+    priority="10"
+  >
     <xsl:param name="variant" select="''"/>
     <xsl:param name="theme" select="''"/>
     <xsl:param name="prefix" select="''"/>
@@ -38,15 +42,24 @@
         <!-- Specialized alerts store the theme in the @color attribute -->
         <xsl:when test="@color"><xsl:value-of select="@color"/></xsl:when>
         <!-- Buttons handling: extract theme from btn-* or default to primary -->
-        <xsl:when test="contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'btn-')])">
-          <xsl:variable name="token" select="tokenize(@outputclass, ' ')[starts-with(., 'btn-') and not(. = ('btn-lg', 'btn-sm', 'btn-toolbar', 'btn-group', 'btn-floating'))][1]"/>
+        <xsl:when
+          test="contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'btn-')])"
+        >
+          <xsl:variable
+            name="token"
+            select="tokenize(@outputclass, ' ')[starts-with(., 'btn-') and not(. = ('btn-lg', 'btn-sm', 'btn-toolbar', 'btn-group', 'btn-floating'))][1]"
+          />
           <xsl:value-of select="if ($token) then substring-after($token, 'btn-') else 'primary'"/>
         </xsl:when>
         <!-- Notes use @type -->
         <xsl:when test="@type='danger'">danger</xsl:when>
-        <xsl:when test="@type='warning' or @type='caution' or @type='restriction' or @type='attention' or @type='trouble'">warning</xsl:when>
+        <xsl:when
+          test="@type='warning' or @type='caution' or @type='restriction' or @type='attention' or @type='trouble'"
+        >warning</xsl:when>
         <xsl:when test="@type='important'">primary</xsl:when>
-        <xsl:when test="@type='note' or @type='notice' or @type='tip' or @type='fastpath' or @type='remember'">info</xsl:when>
+        <xsl:when
+          test="@type='note' or @type='notice' or @type='tip' or @type='fastpath' or @type='remember'"
+        >info</xsl:when>
         <!-- Outputclass fallback for alerts -->
         <xsl:when test="contains(@outputclass, 'alert-primary')">primary</xsl:when>
         <xsl:when test="contains(@outputclass, 'alert-secondary')">secondary</xsl:when>
@@ -63,7 +76,9 @@
     <xsl:variable name="theme-border-color">
       <xsl:choose>
         <xsl:when test="$theme-color = 'primary'"><xsl:value-of select="$bootstrap-primary-alert-border"/></xsl:when>
-        <xsl:when test="$theme-color = 'secondary'"><xsl:value-of select="$bootstrap-secondary-alert-border"/></xsl:when>
+        <xsl:when test="$theme-color = 'secondary'"><xsl:value-of
+            select="$bootstrap-secondary-alert-border"
+          /></xsl:when>
         <xsl:when test="$theme-color = 'success'"><xsl:value-of select="$bootstrap-success-alert-border"/></xsl:when>
         <xsl:when test="$theme-color = 'info'"><xsl:value-of select="$bootstrap-info-alert-border"/></xsl:when>
         <xsl:when test="$theme-color = 'warning'"><xsl:value-of select="$bootstrap-warning-alert-border"/></xsl:when>

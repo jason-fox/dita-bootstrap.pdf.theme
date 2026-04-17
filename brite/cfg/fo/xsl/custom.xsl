@@ -25,7 +25,11 @@
     <xsl:attribute name="padding"><xsl:value-of select="$bootstrap-spacing-1"/></xsl:attribute>
   </xsl:template>
 
-  <xsl:template match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-')])]" mode="bootstrapDecoration" priority="10">
+  <xsl:template
+    match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-')])]"
+    mode="bootstrapDecoration"
+    priority="10"
+  >
     <xsl:param name="variant" select="''"/>
     <xsl:param name="theme" select="''"/>
     <xsl:param name="prefix" select="''"/>
@@ -45,7 +49,11 @@
   </xsl:template>
 
   <!-- Brite Theme: Suppress @outline for buttons - Always render as solid buttons -->
-  <xsl:template match="*[contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'btn-')])]" mode="bootstrapDecoration" priority="20">
+  <xsl:template
+    match="*[contains(@class, ' bootstrap-d/button ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'btn-')])]"
+    mode="bootstrapDecoration"
+    priority="20"
+  >
     <xsl:variable name="token" select="tokenize(@outputclass, ' ')[starts-with(., 'btn-')][1]"/>
     <xsl:variable name="theme">
       <xsl:choose>

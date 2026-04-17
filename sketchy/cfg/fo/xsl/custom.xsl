@@ -13,7 +13,11 @@
   </xsl:template>
 
   <!-- Apply hand-drawn aesthetic to all Bootstrap components in Sketchy theme -->
-  <xsl:template match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-')])]" mode="bootstrapDecoration" priority="10">
+  <xsl:template
+    match="*[contains(@class, ' topic/note ') or contains(@class, ' bootstrap-d/alert ') or contains(@class, ' topic/pre ') or exists(tokenize(@outputclass, ' ')[starts-with(., 'alert-')])]"
+    mode="bootstrapDecoration"
+    priority="10"
+  >
     <xsl:param name="variant" select="''"/>
     <xsl:param name="theme" select="''"/>
     <xsl:param name="prefix" select="''"/>
