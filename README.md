@@ -13,9 +13,9 @@ A plug-in for [DITA Open Toolkit][1] that provides a collection of Bootswatch-in
 Use the `dita` command to add this plug-in and its requirements to your DITA Open Toolkit installation:
 
 ```console
-dita install dita-bootstrap.html
-dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf/archive/master.zip
-dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/master.zip
+dita install dita-bootstrap.specialization
+dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf/archive/develop.zip
+dita install https://github.com/dita-bootstrap/dita-bootstrap.pdf.theme/archive/develop.zip
 ```
 
 ## Using
@@ -32,21 +32,28 @@ If the `bootstrap.theme` parameter is not specified, the `default` theme will be
 
 ## Available Themes
 
-This plug-in includes a wide range of themes, each of which overrides the default Bootstrap branding with unique color palettes and typography:
+This plug-in includes a wide range of themes, each of which overrides the default Bootstrap branding with unique color palettes 
+and typography:
 
-- **Brite**, **Cerulean**, **Cosmo**, **Cyborg**, **Darkly**, **Default**, **Flatly**, **Journal**, **Litera**, **Lumen**, **Lux**, **Materia**, **Minty**, **Morph**, **Pulse**, **Quartz**, **Sandstone**, **Simplex**, **Sketchy**, **Slate**, **Solar**, **Spacelab**, **Superhero**, **United**, **Vapor**, **Yeti**, **Zephyr**.
+- **Brite**, **Cerulean**, **Cosmo**, **Cyborg**, **Darkly**, **Default**, **Flatly**, **Journal**, **Litera**, **Lumen**,
+  **Lux**, **Materia**, **Minty**, **Morph**, **Pulse**, **Quartz**, **Sandstone**, **Simplex**, **Sketchy**, **Slate**, **Solar**,
+  **Spacelab**, **Superhero**, **United**, **Vapor**, **Yeti**, **Zephyr**.
 
-Each theme is designed to match the equivalent [Bootswatch theme](https://bootswatch.com/), providing a consistent visual identity across both web and print outputs.
+Each theme is designed to match the equivalent [Bootswatch theme](https://bootswatch.com/), providing a consistent visual identity
+across both web and print outputs.
 
 ## Customizing
 
 ### Component Reflection
 
-Each theme includes a reflection map override that ensures component-specific styling (such as cards, alerts, and badges) uses the theme's core brand colors and accent variations.
+Each theme includes a reflection map override that ensures component-specific styling (such as cards, alerts, and badges) 
+uses the theme's core brand colors and accent variations.
 
 ### Manual Overrides
 
-To further customize a theme, you can modify the `cfg/fo/attrs/custom.xsl` file within the specific theme folder (e.g., `plugins/dita-bootstrap.pdf.theme/pulse/cfg/fo/attrs/custom.xsl`). These files allow you to override specific XSL-FO attributes for the selected theme.
+To further customize a theme, you can create your own plugin and copy and modify the `cfg/fo/attrs/custom.xsl` file within 
+the specific theme folder (e.g., `plugins/dita-bootstrap.pdf.theme/pulse/cfg/fo/attrs/custom.xsl`). These files allow you
+to override specific XSL-FO attributes for the selected theme.
 
 ## License
 
