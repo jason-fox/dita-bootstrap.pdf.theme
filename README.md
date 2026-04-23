@@ -32,7 +32,7 @@ If the `bootstrap.theme` parameter is not specified, the `default` theme will be
 
 ## Available Themes
 
-This plug-in includes a wide range of themes, each of which overrides the default Bootstrap branding with unique color palettes 
+This plug-in includes a wide range of themes, each of which overrides the default Bootstrap branding with unique color palettes
 and typography:
 
 - **Brite**, **Cerulean**, **Cosmo**, **Cyborg**, **Darkly**, **Default**, **Flatly**, **Journal**, **Litera**, **Lumen**,
@@ -46,12 +46,12 @@ across both web and print outputs.
 
 ### Component Reflection
 
-Each theme includes a reflection map override that ensures component-specific styling (such as cards, alerts, and badges) 
+Each theme includes a reflection map override that ensures component-specific styling (such as cards, alerts, and badges)
 uses the theme's core brand colors and accent variations.
 
 ### Manual Overrides
 
-To further customize a theme, you can create your own plugin and copy and modify the `cfg/fo/attrs/custom.xsl` file within 
+To further customize a theme, you can create your own plugin and copy and modify the `cfg/fo/attrs/custom.xsl` file within
 the specific theme folder (e.g., `plugins/dita-bootstrap.pdf.theme/pulse/cfg/fo/attrs/custom.xsl`). These files allow you
 to override specific XSL-FO attributes for the selected theme.
 
